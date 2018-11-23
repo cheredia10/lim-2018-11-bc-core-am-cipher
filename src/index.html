@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Mensajes secretos</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root">
-      <h1>Secretos de Hermanas</h1>
-    </div>
-    <div id="cl">
-    <label for="clave"> Por favor ingresa el número clave </label>
-    <input type="number" id="clave"></input
-  </div>
+    <header id="root">
+     
+      <img src="floresrojas.jpg">
+    
+    </header>
+
+    <section>
+
+       <div id="cl">
+          <label for="clave"> Por favor ingresa el número clave </label>
+          <input type="number" id="clave"></input>
+      </div>
+
     <div id="secreto">
-    <label for="mensaje"> Ingresa el mensaje secreto </label>
+      <label for="mensaje"> Ingresa el mensaje secreto </label>
       <input type="text" id="mensj" name="mensaje"></input>
     </div>
+
+  <div id=buttons> 
     <button type="button" id="encriptar" > Cifrar </button>
     <button type="button" id="desencriptar"> Descifrar </button>
+  </div>
 
     <div id="Textoamostrar"></div>
     
+    </section>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
