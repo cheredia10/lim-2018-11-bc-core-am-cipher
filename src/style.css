@@ -42,6 +42,7 @@ button:hover {
    transform: translateY(2px);
 }
 
+<<<<<<< HEAD
 #instruccion {
     padding: 15px 15px 13px 13px;
     width: 450px;
@@ -72,6 +73,8 @@ h4 {
 
 }
 
+=======
+>>>>>>> 2bdf8aac7a9dcec10c6f738a1eca2af9d23c6145
 #buttons {
 	columns: auto 2;
 	padding:25px 25px;
