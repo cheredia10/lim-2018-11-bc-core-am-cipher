@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Mensajes secretos</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="root">
-      <h1>Secretos de Hermanas</h1>
-    </div>
-    <div id="cl">
-    <label for="clave"> Por favor ingresa el número clave </label>
-    <input type="number" id="clave"></input
-  </div>
-    <div id="secreto">
-    <label for="mensaje"> Ingresa el mensaje secreto </label>
-      <input type="text" id="mensj" name="mensaje"></input>
-    </div>
-    <button type="button" id="encriptar" > Cifrar </button>
-    <button type="button" id="desencriptar"> Descifrar </button>
 
-    <div id="Textoamostrar"></div>
+  <body>
+    <header id="root">
+     
+      <img src="floresrojas.jpg">
+
+    </header>
+
+    <section>
+      
+      <div id="caja"> 
+      </div>
     
+    <div id="instruccion">
+      <h3> Desde ahora podrás enviarte mensajes secretos con tu hermana, sin que tu mamá las descubra </h3>
+
+      <h4> Para que eso suceda, deberás de recordar lo siguiente: </br>
+             1. Ingresarás un número que será la clave entre tu hermana y tú. </br>
+             2. Escribirás el mensaje. </br>
+             3. Harás click en los botones de CIFRAR o DECIFRAR, según sea el caso.</br>
+
+      </h4>
+      
+    </div>
+
+    <div id="page2">  
+        <div id="cl">
+          <label for="clave"> Por favor ingresa el número clave </label>
+          <input type="number" id="clave"></input>
+        </div>
+
+        <div id="secreto">
+          <label for="mensaje"> Ingresa el mensaje secreto </label>
+          <input type="text" id="mensj" name="mensaje"></input>
+        </div>
+
+        <div id=buttons> 
+        <button type="button" id="encriptar" > Cifrar </button>
+        <button type="button" id="desencriptar"> Descifrar </button>
+        </div>
+
+        <div id="Textoamostrar"></div>
+    </div>
+
+    </section>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

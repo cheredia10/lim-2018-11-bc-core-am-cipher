@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+img {
+	width:100%;
+    height:100%;
+    position: absolute;
+}
+
+section {
+	position: relative;
+}
+button {
+	 
+	display: inline-flex;
+    background-color: #F5A9F2;
+    border: 2px solid #FA58F4;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+
+}
+div {
+	margin: auto;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+ }
+
+ button:active {
+   transform: translateY(2px);
+}
+
+#instruccion {
+    padding: 15px 15px 13px 13px;
+    width: 450px;
+    height: 230px;
+    text-align: center;
+    border: 5px solid #DE39D4;
+    outline: #FFB0E3 solid 10px;
+    position: absolute;
+   	left: 30%;
+    top: 150%;
+    opacity: 0.7;
+    background-color: #FFFFFF;
+    -ms-transform: translate(30px, 300px); /* IE 9 */
+    -webkit-transform: translate(30px, 300px); /* Safari */
+    transform: translate(30px, 300px);
+   
+}
+
+#page2 {
+
+	display: none;
+}
+
+
+h4 {
+	text-align: left;
+
+
+}
+
+#buttons {
+	columns: auto 2;
+	padding:25px 25px;
+	border: auto 25%;
+	margin: 15px 65px;
+}
+#clave {
+
+	padding: 10px 15px;
+}
