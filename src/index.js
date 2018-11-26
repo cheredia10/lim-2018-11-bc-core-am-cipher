@@ -3,6 +3,8 @@
 const mostrar= document.getElementById("Textoamostrar")
 const buttonEncriptar=document.getElementById("encriptar")
 const buttonDesencriptar=document.getElementById("desencriptar")
+const buttonGo=document.getElementById("Go")
+
 
 //Creando evento del botón CRIFRAR
 
@@ -23,3 +25,11 @@ buttonEncriptar.addEventListener('click', () => {
   let mensajito= document.getElementById('mensj').value;
   mostrar.innerHTML=cipher.decode(mensajito, offset);
  });
+
+ //Creando boton Adelante
+ buttonGo.addEventListener('click', () =>{
+  document.getElementById('page1').style.display='none';
+  document.getElementById('page2').style.display='block';
+ });
+
+ 
