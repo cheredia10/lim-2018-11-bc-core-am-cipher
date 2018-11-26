@@ -42,6 +42,36 @@ button:hover {
    transform: translateY(2px);
 }
 
+#instruccion {
+    padding: 15px 15px 13px 13px;
+    width: 450px;
+    height: 230px;
+    text-align: center;
+    border: 5px solid #DE39D4;
+    outline: #FFB0E3 solid 10px;
+    position: absolute;
+   	left: 30%;
+    top: 150%;
+    opacity: 0.7;
+    background-color: #FFFFFF;
+    -ms-transform: translate(30px, 300px); /* IE 9 */
+    -webkit-transform: translate(30px, 300px); /* Safari */
+    transform: translate(30px, 300px);
+   
+}
+
+#page2 {
+
+	display: none;
+}
+
+
+h4 {
+	text-align: left;
+
+
+}
+
 #buttons {
 	columns: auto 2;
 	padding:25px 25px;
