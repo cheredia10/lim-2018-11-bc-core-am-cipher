@@ -11,7 +11,7 @@ const buttonGo=document.getElementById("Go")
 buttonEncriptar.addEventListener('click', () => {
   //Creando variables que almacenan los datos de los input
   let offset= document.getElementById('clave').value;
-  let mensajito= document.getElementById('mensj').value;
+  let mensajito= document.getElementById('messege').value;
   mostrar.innerHTML=cipher.encode(mensajito, offset);
  });
 
@@ -21,7 +21,7 @@ buttonEncriptar.addEventListener('click', () => {
 
 //Creando variables que almacenan los datos de los input
   let offset= document.getElementById('clave').value;
-  let mensajito= document.getElementById('mensj').value;
+  let mensajito= document.getElementById('messege').value;
   mostrar.innerHTML=cipher.decode(mensajito, offset);
  });
 

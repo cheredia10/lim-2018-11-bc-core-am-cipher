@@ -14,21 +14,7 @@ img {
 section {
 	position: relative;
 }
-button {
-	 
-	display: inline-flex;
-    background-color: #F5A9F2;
-    border: 2px solid #FA58F4;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 10px;
-    outline: none;
 
-}
 div {
 	margin: auto;
 }
@@ -90,14 +76,47 @@ h3 {
     border-radius: 50%;
     outline: none;
 }
+    
+
+button {
+	 
+	background-color: #F5A9F2;
+    border: 2px solid #FA58F4;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+
+}
 
 #buttons {
-	columns: auto 2;
-	padding:25px 25px;
-	border: auto 25%;
-	margin: 15px 65px;
+	margin: 40px 40px 40px 80px;
 }
 
 #clave {
-	padding: 10px 15px;
+	width: 5%;
+    height: 15%;
+    padding: 5px 5px;
+}
+
+#messege {
+	width: 30%;
+    height: 50%;
+    padding: 5px 5px;
+    position: absolute;
+}
+
+label {
+	font-size: 20px;
+	color : #0B610B;
+}
+
+#page2{
+	-ms-transform: translate(400px, 300px); /* IE 9 */
+    -webkit-transform: translate(400px, 300px); /* Safari */
+    transform: translate(400px, 300px);
 }
