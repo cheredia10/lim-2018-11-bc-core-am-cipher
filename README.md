@@ -23,10 +23,9 @@ Este proyecto está diseñado para amigas, hermanas quienes en algún momento se
 
 Este proyecto tiene una interfaz muy sencilla por lo que podrán utilizarlo niñas, jóvenes y señoras que requieran cifrar algún mensaje secreto.
 
-![Imagen 1][1]  ![Imagen 2][2]
 
- [1]: Pantallas/Pagina1.jpg
- [2]: Pantallas/Pagina1.jpg
+![Sin titulo](Pantallas/Pagina1.jpg)
+![Sin titulo](Pantallas/Pagina2.jpg)
 
 
 ## ¿Quiénes son los principales usuarios de producto?
