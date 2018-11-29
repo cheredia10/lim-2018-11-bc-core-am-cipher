@@ -20,9 +20,8 @@ for(let i=0; i<mensajito.length ; i++) { //recorrido de letras a cifrar//
       let palabraCifradamin = String.fromCharCode(ubicacionCesarmin);
       cifrado+= palabraCifradamin;
     }
-    else if (numberCodeAscii==32){
-      let space=" ";
-      cifrado+= space;
+    else if (numberCodeAscii === 32){
+      cifrado+= " ";
     }
   }
   return cifrado;
@@ -48,9 +47,8 @@ const decifrar = (mensajito, offset) => {
       let palabraDecifradamin = String.fromCharCode(ubicacionCesarmin);
       decifrado+= palabraDecifradamin;
     }
-    else if (numberCodeAscii==32){
-      let space=" ";
-      decifrado+= space;
+    else if (numberCodeAscii ===32){
+      decifrado+= " ";
     }
 }
    return decifrado;

@@ -4,7 +4,7 @@ const mostrar= document.getElementById("Textoamostrar")
 const buttonEncriptar=document.getElementById("encriptar")
 const buttonDesencriptar=document.getElementById("desencriptar")
 const buttonGo=document.getElementById("Go")
-
+const buttonHome=document.getElementById("Home")
 
 //Creando evento del botón CRIFRAR
 
@@ -31,3 +31,8 @@ buttonEncriptar.addEventListener('click', () => {
   document.getElementById('page2').style.display='block';
  });
 
+//Creando boton Home
+ buttonHome.addEventListener('click', () =>{
+  document.getElementById('page1').style.display='block';
+  document.getElementById('page2').style.display='none';
+ });
