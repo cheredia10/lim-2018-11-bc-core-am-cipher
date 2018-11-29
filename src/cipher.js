@@ -21,15 +21,10 @@ for(let i=0; i<messencrypt.length ; i++) { //recorrido de letras a cifrar//
       cypher+= wordCifradamin;
     }
     else if (numberCodeAscii === 32){
-<<<<<<< HEAD
-      cifrado+= " ";
-=======
       cypher+= " ";
     }
     else {
       cypher+= messencrypt.charAt(i);
-
->>>>>>> 77741f8223b742f47ebaf83956f6f0add3b1784f
     }
   }
   return cypher;
@@ -56,15 +51,10 @@ const decipher = (messencrypt, offset) => {
       deciphered+= wordDecipheredmin;
     }
     else if (numberCodeAscii ===32){
-<<<<<<< HEAD
-      decifrado+= " ";
-=======
       deciphered+= " ";
     }
     else {
       deciphered+= messencrypt.charAt(i);
-
->>>>>>> 77741f8223b742f47ebaf83956f6f0add3b1784f
     }
 }
    return deciphered;

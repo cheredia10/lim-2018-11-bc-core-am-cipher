@@ -24,12 +24,6 @@ describe('cipher', () => {
     it('debería retornar "12ñ" para "12ñ"  con offest 33', () =>{
       assert.equal(cipher.encode ("12ñ",33),"12ñ");
     });
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 77741f8223b742f47ebaf83956f6f0add3b1784f
   });
 
   describe('cipher.decode', () => {
@@ -49,12 +43,9 @@ describe('cipher', () => {
     it('debería retornar " " para " "  con offest 33', () =>{
       assert.equal(cipher.decode (" ",33)," ");
     });
-<<<<<<< HEAD
-=======
-     it('debería retornar "12ñ" para "12ñ"  con offest 33', () =>{
+    it('debería retornar "12ñ" para "12ñ"  con offest 33', () =>{
       assert.equal(cipher.decode ("12ñ",33),"12ñ");
     });
->>>>>>> 77741f8223b742f47ebaf83956f6f0add3b1784f
   });
 
 
