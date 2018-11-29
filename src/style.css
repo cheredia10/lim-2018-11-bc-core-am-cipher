@@ -1,5 +1,6 @@
 .container{
     width: 100%;
+<<<<<<< HEAD
 }
 
 body {
@@ -34,6 +35,29 @@ button {
     border-radius: 10px;
     outline: none;
 }
+=======
+}
+
+body {
+    margin: 0;
+    background-image: url('floresrojas.jpg');
+    background-size: cover;
+}
+
+button {
+    background-color: #F5A9F2;
+    border: 2px solid #FA58F4;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+}
+
+>>>>>>> 77741f8223b742f47ebaf83956f6f0add3b1784f
 
 
 button:hover {
@@ -74,6 +98,10 @@ h3 {
     color: blue;
     border-radius: 50%;
     display: inline;
+<<<<<<< HEAD
+=======
+    transform: translate(50%,30%);
+>>>>>>> 77741f8223b742f47ebaf83956f6f0add3b1784f
     margin-top: 5%;
     
 }
@@ -88,7 +116,11 @@ h3 {
     margin: auto;
 }
 
+<<<<<<< HEAD
 #clave {
+=======
+#key {
+>>>>>>> 77741f8223b742f47ebaf83956f6f0add3b1784f
     width: 15%;
     height: 15%;
     padding: 5px 5px;
@@ -105,6 +137,10 @@ h3 {
 
 #buttons{
     position: relative;
+<<<<<<< HEAD
+=======
+    margin-top: 3%;
+>>>>>>> 77741f8223b742f47ebaf83956f6f0add3b1784f
     width: 15%;
     height: 20%;
     display: inline;
@@ -113,13 +149,21 @@ h3 {
 
 label {
     font-size: 20px;
+<<<<<<< HEAD
+=======
+    margin-top: 2%;
+>>>>>>> 77741f8223b742f47ebaf83956f6f0add3b1784f
     display: inline-block;
     color : #122A0A;
     opacity: 0.7;
     background-color: #FFFFFF;
 }
 
+<<<<<<< HEAD
 #Textoamostrar{
+=======
+#Texttoshow{
+>>>>>>> 77741f8223b742f47ebaf83956f6f0add3b1784f
     padding: 5px 5px;
     position: relative;
     width:50%;
