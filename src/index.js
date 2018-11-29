@@ -1,28 +1,28 @@
 // Creando variables a utilizar
 
-const mostrar= document.getElementById("Textoamostrar")
-const buttonEncriptar=document.getElementById("encriptar")
-const buttonDesencriptar=document.getElementById("desencriptar")
+const view= document.getElementById("Texttoshow")
+const buttonEncrypt=document.getElementById("encrypt")
+const buttonDecrypt=document.getElementById("decrypt")
 const buttonGo=document.getElementById("Go")
 const buttonHome=document.getElementById("Home")
 
 //Creando evento del botón CRIFRAR
 
-buttonEncriptar.addEventListener('click', () => {
+buttonEncrypt.addEventListener('click', () => {
   //Creando variables que almacenan los datos de los input
-  let offset= document.getElementById('clave').value;
-  let mensajito= document.getElementById('messege').value;
-  mostrar.innerHTML=cipher.encode(mensajito, offset);
+  let offset= document.getElementById('key').value;
+  let messencrypt= document.getElementById('messege').value;
+  view.innerHTML=cipher.encode(messencrypt, offset);
  });
 
 //Creando evento del botón DECIFRAR
  
- buttonDesencriptar.addEventListener('click', () =>{
+ buttonDecrypt.addEventListener('click', () =>{
 
 //Creando variables que almacenan los datos de los input
-  let offset= document.getElementById('clave').value;
-  let mensajito= document.getElementById('messege').value;
-  mostrar.innerHTML=cipher.decode(mensajito, offset);
+  let offset= document.getElementById('key').value;
+  let messencrypt= document.getElementById('messege').value;
+  view.innerHTML=cipher.decode(messencrypt, offset);
  });
 
  //Creando boton Adelante
