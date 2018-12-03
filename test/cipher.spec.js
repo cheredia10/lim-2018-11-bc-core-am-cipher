@@ -11,18 +11,18 @@ describe('cipher', () => {
     });
 
     it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33', () => {
-      assert.equal (cipher.encode ("ABCDEFGHIJKLMNOPQRSTUVWXYZ",33),"HIJKLMNOPQRSTUVWXYZABCDEFG");
+      assert.equal (cipher.encode (33, "ABCDEFGHIJKLMNOPQRSTUVWXYZ"),"HIJKLMNOPQRSTUVWXYZABCDEFG");
     });
 
     it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz"  con offest 33', () =>{
-      assert.equal(cipher.encode ("abcdefghijklmnopqrstuvwxyz",33),"hijklmnopqrstuvwxyzabcdefg");
+      assert.equal(cipher.encode (33, "abcdefghijklmnopqrstuvwxyz"),"hijklmnopqrstuvwxyzabcdefg");
     });
 
     it('debería retornar " " para " "  con offest 33', () =>{
-      assert.equal(cipher.encode (" ",33)," ");
+      assert.equal(cipher.encode (33, " ")," ");
     });
     it('debería retornar "12ñ" para "12ñ"  con offest 33', () =>{
-      assert.equal(cipher.encode ("12ñ",33),"12ñ");
+      assert.equal(cipher.encode (33, "12ñ"),"12ñ");
     });
 
 
@@ -35,20 +35,18 @@ describe('cipher', () => {
     });
 
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33', () =>{
-      assert.equal(cipher.decode("HIJKLMNOPQRSTUVWXYZABCDEFG",33),"ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+      assert.equal(cipher.decode(33, "HIJKLMNOPQRSTUVWXYZABCDEFG"),"ABCDEFGHIJKLMNOPQRSTUVWXYZ");
     });
 
     it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offest 33', () =>{
-      assert.equal(cipher.decode("hijklmnopqrstuvwxyzabcdefg",33),"abcdefghijklmnopqrstuvwxyz");
+      assert.equal(cipher.decode(33, "hijklmnopqrstuvwxyzabcdefg"),"abcdefghijklmnopqrstuvwxyz");
     });
     
     it('debería retornar " " para " "  con offest 33', () =>{
-      assert.equal(cipher.decode (" ",33)," ");
+      assert.equal(cipher.decode (33, " ")," ");
     });
      it('debería retornar "12ñ" para "12ñ"  con offest 33', () =>{
-      assert.equal(cipher.decode ("12ñ",33),"12ñ");
+      assert.equal(cipher.decode (33, "12ñ"),"12ñ");
     });
   });
-
-
 });

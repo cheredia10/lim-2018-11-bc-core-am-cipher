@@ -1,4 +1,4 @@
-const code = (messencrypt, offset) => {
+const code = (offset, messencrypt) => {
  let cypher="";
 
 for(let i=0; i<messencrypt.length ; i++) { //recorrido de letras a cifrar//
@@ -31,7 +31,7 @@ for(let i=0; i<messencrypt.length ; i++) { //recorrido de letras a cifrar//
   return cypher;
 }
 
-const decipher = (messencrypt, offset) => {
+const decipher = (offset, messencrypt) => {
  let deciphered="";
 
   for(let i=0; i<messencrypt.length ; i++) { //recorrido de letras a decifrar//

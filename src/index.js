@@ -12,7 +12,7 @@ buttonEncrypt.addEventListener('click', () => {
   //Creando variables que almacenan los datos de los input
   let offset= document.getElementById('key').value;
   let messencrypt= document.getElementById('messege').value;
-  view.innerHTML=cipher.encode(messencrypt, offset);
+  view.innerHTML=cipher.encode(offset, messencrypt);
  });
 
 //Creando evento del botón DECIFRAR
@@ -22,7 +22,7 @@ buttonEncrypt.addEventListener('click', () => {
 //Creando variables que almacenan los datos de los input
   let offset= document.getElementById('key').value;
   let messencrypt= document.getElementById('messege').value;
-  view.innerHTML=cipher.decode(messencrypt, offset);
+  view.innerHTML=cipher.decode(offset, messencrypt);
  });
 
  //Creando boton Adelante
