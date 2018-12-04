@@ -1,4 +1,4 @@
-const code = (messencrypt, offset) => {
+const code = (offset, messencrypt) => {
  let cypher="";
 
 for(let i=0; i<messencrypt.length ; i++) { //recorrido de letras a cifrar//
@@ -20,9 +20,11 @@ for(let i=0; i<messencrypt.length ; i++) { //recorrido de letras a cifrar//
       let wordCifradamin = String.fromCharCode(LocationCesarmin);
       cypher+= wordCifradamin;
     }
+    // condicion para espacios en blanco
     else if (numberCodeAscii === 32){
       cypher+= " ";
     }
+    //condicion para cualquier otro caso
     else {
       cypher+= messencrypt.charAt(i);
     }
@@ -30,7 +32,7 @@ for(let i=0; i<messencrypt.length ; i++) { //recorrido de letras a cifrar//
   return cypher;
 }
 
-const decipher = (messencrypt, offset) => {
+const decipher = (offset, messencrypt) => {
  let deciphered="";
 
   for(let i=0; i<messencrypt.length ; i++) { //recorrido de letras a decifrar//
@@ -50,9 +52,11 @@ const decipher = (messencrypt, offset) => {
       let wordDecipheredmin = String.fromCharCode(LocationCesarmin);
       deciphered+= wordDecipheredmin;
     }
+    //condición para espacios en blanco
     else if (numberCodeAscii ===32){
       deciphered+= " ";
     }
+    //condición para cualquier otro caso
     else {
       deciphered+= messencrypt.charAt(i);
     }

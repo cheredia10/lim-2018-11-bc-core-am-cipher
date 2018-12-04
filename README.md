@@ -27,6 +27,11 @@ Este proyecto tiene una interfaz muy sencilla por lo que podrán utilizarlo niñ
 ![Sin titulo](Pantallas/Pagina1.JPG)
 ![Sin titulo](Pantallas/Pagina2.JPG)
 
+- El usuario solo deberá de ingresar un número que será la clave secreta.
+- Después deberá de ingresar el mensaje que desea crifrar.
+- Por último solo debe de presionar el boton cifrar o descifrar como sea su caso.
+
+
 
 ## ¿Quiénes son los principales usuarios de producto?
 
