@@ -1,6 +1,6 @@
 // Creando variables a utilizar
 
-const view= document.getElementById("Texttoshow")
+const view= document.getElementById("text-to-show")
 const buttonEncrypt=document.getElementById("encrypt")
 const buttonDecrypt=document.getElementById("decrypt")
 const buttonGo=document.getElementById("Go")
