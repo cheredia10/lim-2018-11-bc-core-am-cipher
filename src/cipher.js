@@ -20,9 +20,11 @@ for(let i=0; i<messencrypt.length ; i++) { //recorrido de letras a cifrar//
       let wordCifradamin = String.fromCharCode(LocationCesarmin);
       cypher+= wordCifradamin;
     }
+    // condicion para espacios en blanco
     else if (numberCodeAscii === 32){
       cypher+= " ";
     }
+    //condicion para cualquier otro caso
     else {
       cypher+= messencrypt.charAt(i);
 
@@ -51,9 +53,11 @@ const decipher = (offset, messencrypt) => {
       let wordDecipheredmin = String.fromCharCode(LocationCesarmin);
       deciphered+= wordDecipheredmin;
     }
+    //condición para espacios en blanco
     else if (numberCodeAscii ===32){
       deciphered+= " ";
     }
+    //condición para cualquier otro caso
     else {
       deciphered+= messencrypt.charAt(i);
 
